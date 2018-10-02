@@ -1,0 +1,43 @@
+<!--
+  Generated template for the SignUpPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ion-header>
+
+  <ion-navbar class="title2" color="custom3">
+    <ion-title ><marquee><span>CodeTribe</span></marquee></ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding text-center>
+  <img class="icon" src="../../assets/imgs/Back5.gif">
+  <ion-list class="inputs">
+    <ion-item class="inputs2">
+      <ion-label><i class="fa fa-user" style="font-size:20px;">First Name: </i></ion-label>
+      <ion-input type="text" placeholder="Firstname:" #userName ></ion-input>
+     </ion-item>
+     <br>
+     <ion-item class="inputs2">
+      <ion-label><i class="fa fa-user" style="font-size:20px;">Last Name: </i></ion-label>
+      <ion-input type="text" placeholder="Lastname:" #LastName ></ion-input>
+     </ion-item>
+        <br>
+         <ion-item class="inputs2">
+          <ion-label><i class="fa fa-file" style="font-size:20px;">ID Number:</i></ion-label>
+          <ion-input type="text" placeholder="user ID:" #userID ></ion-input>
+         </ion-item>
+  </ion-list>
+    
+     <button class="btnSign" ion-button color="primary" round block clear (click)="saveData(userName.value,LastName.value,userID.value)">Sign In!</button>
+  
+
+     <!-- <ion-list>
+      
+     </ion-list> -->
+</ion-content>
+    
+ 
+    

@@ -1,0 +1,65 @@
+page-sign-in {
+    ion-content{
+        background: url(../../assets/imgs/wall9.jpg);
+        background-position: center;
+        background-size: cover;
+        align-content: center;
+        text-align: center;
+        color: aliceblue;
+        // background: rgb(0, 0, 0);
+    }
+    ion-header{
+        color:#005585;
+    }
+    span{
+        color: antiquewhite;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+    }
+
+    .icon{
+        margin-top: 5px;
+        height:190px;
+    }
+
+    .inputs{
+        margin-top: 38%;
+        opacity: 0.75;
+        // margin: 55% auto 5% auto;
+        width:100%;
+        text-decoration: none;
+        border-radius: 7px;
+        color: aliceblue;
+        // background: rgb(0, 0, 0);
+       
+
+    }
+
+    .inputs2{
+        background: rgb(0, 0, 0);
+        color: aliceblue;
+        opacity: 0.7;
+    }
+    // ion-list{
+    //     opacity: 0.8;
+    // }
+
+    .title2{
+        font-size: 35px;
+        color: beige;
+        width:100%;
+    }
+
+    .title{
+        font-size: 35px;
+        text-align: center;
+        font-family: fantasy;
+    }
+
+    .btnSign{
+        opacity: 0.9;
+        text-align: center;
+        align-content: center;
+        color: aliceblue;
+    }
+}
